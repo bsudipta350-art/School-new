@@ -1,0 +1,18 @@
+{
+  "name": "pathshala-mitra-backend",
+  "version": "1.0.0",
+  "description": "Real backend for Pathshala Mitra — login API, admin account creation, and Super Admin school/subscription management.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "create-admin": "node createAdmin.js",
+    "create-superadmin": "node createSuperAdmin.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.6.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
